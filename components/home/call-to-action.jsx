@@ -17,7 +17,7 @@ export default function Cta() {
                                     Get your assignemt blasignly fast with acuraccy.
                                 </span>
                                 <h2 className="mb-6 text-3xl font-poppins-semibold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0">
-                                    Don't let deadlines stress you out – experience the difference with our expert assistance
+                                    Don&apos;t let deadlines stress you out – experience the difference with our expert assistance
                                 </h2>
                                 <Dialog />
                             </div>

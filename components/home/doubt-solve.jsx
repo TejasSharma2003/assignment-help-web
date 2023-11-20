@@ -11,7 +11,7 @@ export default function DoubtSolve() {
             <SectionHeading title={title} brief={brief} />
             <SideLayout className="mt-24">
                 <div className="mt-5">
-                    <h3 className="relative text-black text-2xl">Don’t <span className="relative"> need <Image className="absolute bottom-0 left-0 translate-y-2" src="/short-highlight.svg" width={60} height={10} /> </span>to worry.
+                    <h3 className="relative text-black text-2xl">Don&apos;t <span className="relative"> need <Image className="absolute bottom-0 left-0 translate-y-2" src="/short-highlight.svg" width={60} height={10} /> </span>to worry.
                     </h3> <p className="mt-5">Here, the World’s Leading Technical Assignment Help Platform is close to you for clearing your doubts in your research module, education as well as project development which is the main objective of our Team.</p>
                     <p className="mt-5">We are following some waterfall approach. At first, we received your doubts, then after we try to analyze your doubt to find out your particular domain expert. </p>
                     <p className="mt-5">Now the complete task will be under domain expert who will be responsible for making good content for your problem areas. After receiving the complete task from our technical team of experts, we will deliver it to you via email.</p>

@@ -13,7 +13,7 @@ export default function UpdatesEmail() {
                             <div className="w-full flex text-center flex-col lg:w-1/2">
                                 <p className="text-base mb-4 text-white">Subsribe and avail special offers.</p>
                                 <h2 className="mb-6 text-3xl font-poppins-semibold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0">
-                                    Don't miss out on the academic adventure – join our newsletter now!
+                                    Don&apos;t miss out on the academic adventure – join our newsletter now!
                                 </h2>
                                 <div className="flex justify-center w-full mt-2 items-center space-x-2">
                                     <div className="flex w-full max-w-md items-center">
