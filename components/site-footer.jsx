@@ -4,13 +4,13 @@ import Logo from "./logo";
 const Footer = () => {
     return (
         <>
-            <footer className="relative bg-light-gradient  z-10 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+            <footer className="relative bg-light-gradient  z-10 pt-10 dark:bg-dark  ">
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="sm:w-full px-4 md:w-2/3 w-3/12">
                             <div className="mb-10 w-full">
                                 <Logo />
-                                <p className="text-base mt-5 mt-2 mb-5">Assignment Wallah Pvt Ltd<br />
+                                <p className="text-base mt-5  mb-5">Assignment Wallah Pvt Ltd<br />
                                     1234 Elm Street Apt 567 Springfield,<br />
                                     IL 12345 United States </p>
                                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
