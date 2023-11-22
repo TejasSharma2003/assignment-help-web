@@ -8,15 +8,15 @@ import Ellipse from "../ui/ellipse";
 export default function Cta() {
     return (
         <>
-            <SectionWrapper className="lg:py-[120px] bg-light-gradient dark:bg-dark">
+            <SectionWrapper className="py-0 bg-light-gradient dark:bg-dark">
                 <div className="">
-                    <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24  md:p-[70px]">
+                    <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24" >
                         <div className="container flex flex-wrap items-center">
-                            <div className="w-full flex text-center flex-col justify-center lg:w-1/2">
+                            <div className="w-full flex items-center text-center flex-col justify-center ">
                                 <span className="block mb-4 text-lg font-medium text-white">
                                     Get your assignemt blasignly fast with acuraccy.
                                 </span>
-                                <h2 className="mb-6 text-3xl font-poppins-semibold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0">
+                                <h2 className="mb-6 text-3xl font-poppins-semibold leading-tight text-white sm:text-2xl ">
                                     Don&apos;t let deadlines stress you out – experience the difference with our expert assistance
                                 </h2>
                                 <Dialog />

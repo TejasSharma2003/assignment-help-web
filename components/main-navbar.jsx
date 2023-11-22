@@ -8,15 +8,15 @@ import WorkBar from "./work-bar"
 
 export default function MainNavbar() {
     return (
-        <div className="px-10 py-5 text-black/[.8] text-lg bg-white relative z-50 after:absolute after:h-full after:w-full after:top-0 after:left-0 after:bg-background
-            ">
-            <div className="relative z-50">
+        <div className="sm:px-5 text-lg text-black/70 relative z-50">
+            <div className="relative py-5  t-50 max-w-[89rem] mx-auto ">
                 <div className="flex items-end">
                     <Logo />
-                    <nav className="ml-16">
+                    <nav className="ml-16 lg:hidden">
                         {company.mainLinks.map((item, index) => {
                             return <Link key={index} href={item.href}
-                                className="ml-4" >
+                                className={cn("ml-4",
+                                )} >
                                 {item.title}
                             </Link>
                         })}
@@ -28,7 +28,7 @@ export default function MainNavbar() {
                         Contact Us
                     </Button>
                 </div>
-                <div className="mt-5">
+                <div className="mt-5 lg:hidden">
                     <WorkBar />
                 </div>
             </div>

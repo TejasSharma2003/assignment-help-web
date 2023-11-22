@@ -6,13 +6,13 @@ import Ellipse from "../ui/ellipse";
 export default function UpdatesEmail() {
     return (
         <>
-            <SectionWrapper className="lg:py-[120px] bg-light-gradient dark:bg-dark">
+            <SectionWrapper className="bg-light-gradient dark:bg-dark">
                 <div className="">
-                    <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24  md:p-[70px]">
+                    <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24 ">
                         <div className="container flex flex-wrap items-center">
-                            <div className="w-full flex text-center flex-col lg:w-1/2">
+                            <div className="w-full flex text-center flex-col ">
                                 <p className="text-base mb-4 text-white">Subsribe and avail special offers.</p>
-                                <h2 className="mb-6 text-3xl font-poppins-semibold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0">
+                                <h2 className="mb-6 sm:mb-2 text-3xl font-poppins-semibold leading-tight text-white sm:mb-8 sm:text-2xl lg:mb-0">
                                     Don&apos;t miss out on the academic adventure – join our newsletter now!
                                 </h2>
                                 <div className="flex justify-center w-full mt-2 items-center space-x-2">

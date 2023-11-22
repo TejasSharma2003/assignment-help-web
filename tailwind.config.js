@@ -12,12 +12,14 @@ module.exports = {
             '2xl': { 'max': '1535px' },
             'xl': { 'max': '1279px' },
             'lg': { 'max': '1023px' },
-            'md': { 'max': '767px' },
+            'md': { 'max': '900px' },
             'sm': { 'max': '639px' },
+            'sm-2': { 'max': '690px' },
+            'tiny': { 'max' : '474px' },
         },
         container: {
             center: true,
-            padding: "2rem",
+            padding: "1rem",
             screens: {
                 "lg": "70rem",
             },
@@ -27,10 +29,11 @@ module.exports = {
                 'footer': '1.5fr 1fr 1fr 1fr 1.5fr'
             },
             backgroundImage: {
-                'hero-image': "url('/aboutus.png')",
-                'light-gradient': "linear-gradient(122deg, rgba(91, 72, 197, 0.05) -3.16%, rgba(224, 65, 124, 0.05) 95.65%)",
-                'fade-left':'linear-gradient(91deg, #f8f5fb,30%, rgba(255, 255, 255, 0.00) 33%)',
-                'fade-right':'linear-gradient(270deg, #f8f5fb,30%, rgba(255, 255, 255, 0.00) 33%)'
+                // 'hero-image': "url('/aboutus.png')",
+                'hero-image': "url('/hero-2.jpg')",
+                'light-gradient': "linear-gradient(122deg, rgba(91, 72, 197, 0.02) -3.16%, rgba(224, 65, 124, 0.02) 95.65%)",
+                'fade-left':'linear-gradient(91deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
+                'fade-right':'linear-gradient(270deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
             },
             fontFamily: {
                 "poppins-light": ["var(--poppins-light)"],
@@ -54,7 +57,7 @@ module.exports = {
                 "light": "var(--light)",
             },
             colors: {
-                overlay: 'rgba(0, 0, 0, 0.70)',
+                overlay: 'rgba(0, 0, 0, 0.60)',
                 "sub-heading-fill": "hsl(var(--sub-heading-fill))",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",

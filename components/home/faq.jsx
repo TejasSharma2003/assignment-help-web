@@ -18,8 +18,8 @@ export default function Faq({ faqs }) {
                 <Accordion type="single" collapsible className="flex flex-col gap-5 ">
                     {faqs.map((faq, index) => {
                         return <AccordionItem key={index} value={`item-${index + 1}`}>
-                            <AccordionTrigger className="text-sub-heading-fill hover:no-underline">{faq.question}</AccordionTrigger>
-                            <AccordionContent className=" text-lg text-black">{faq.answer}</AccordionContent>
+                            <AccordionTrigger className="text-sub-heading-fill hover:no-underline text-left">{faq.question}</AccordionTrigger>
+                            <AccordionContent className=" text-lg text-black/90">{faq.answer}</AccordionContent>
                         </AccordionItem>
                     })}
                 </Accordion>

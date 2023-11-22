@@ -13,7 +13,7 @@ export default function Sample({ featuredBlogs }) {
                 {featuredBlogs.map((blog, index) => {
                     return <div className="last:mb-0 mb-10 rounded-lg cursor-pointer py-5 px-4 border border-muted transition-colors duration-300 ">
                         <Link href="#">
-                            <h2 className="font-poppins-light text-black text-2xl mb-2">{blog.title}</h2>
+                            <h2 className="font-poppins-light text-black text-2xl sm:leading-tight mb-2">{blog.title}</h2>
                             <p>{blog.brief}</p>
                             <div className="text-base flex flex-col mt-3">
                                 <span>Published on <span>{blog.publishedAt}</span></span>

@@ -31,7 +31,7 @@ const items = [
 
 const Features = ({ icon, content }) => {
     return (
-        <div className="py-6 px-5  rounded-lg bg-white shadow-light hover:-translate-y-[2px] transition-transform duration-300">
+        <div className="py-6 px-5  rounded-lg bg-white shadow-light hover:-translate-y-[4px] transition-transform duration-300">
             {icon}
             <p className="mt-5 text-lg">
                 {content}
@@ -47,20 +47,23 @@ export default function Process() {
         <SectionWrapper>
             <SectionHeading title={title} brief={brief} />
             <SideLayout>
-                <div className="flex justify-end">
-                    <Image
-                        src="/girlworking.png"
-                        width={450}
-                        height={500}
-                        alt="girl working"
-                    />
+                <div className="flex md:justify-center items-center group">
+                    <div className="tiny:w-4/5 relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:border-2 before:border-secondary before:rounded-lg  before:-z-10 ">
+                        <Image
+                            src="/working.jpg"
+                            width={550}
+                            height={300}
+                            alt="girl working"
+                            className="-translate-x-3 rounded-lg  -translate-y-3 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-300"
+                        />
+                    </div>
                 </div>
-                <div className="pt-8">
-                    <h3 className="relative text-2xl text-black">
-                        This is how we do it.
+                <div className="">
+                    <h3 className="relative text-2xl text-black ">
+                        We have a process.
                         <HightLight className="absolute bottom-0 left-0 translate-y-8" />
                     </h3>
-                    <div className="mt-14 grid  gap-5 grid-rows-2 grid-cols-2 ">
+                    <div className="mt-14 grid  gap-5 grid-rows-2 grid-cols-2 tiny:grid-cols-1">
                         {items.map((item, index) => {
                             return <Features key={index} icon={item.icon} content={item.content} />
                         })}
