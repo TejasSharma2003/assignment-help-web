@@ -20,15 +20,15 @@ import {
 export default function Dialog() {
     return <ShadDialog className="">
         <DialogTrigger asChild>
-            <Button className={cn(buttonVariants({ variant: "primary", size: "lg" },), 'text-lg font-medium sm:w-full')}>
+            <Button className={cn(buttonVariants({ variant: "primary", size: "lg" },), 'text-lg font-medium w-full md:w-auto ')}>
                 Get Assistance
             </Button>
         </DialogTrigger>
         <DialogContent className="rounded-lg max-w-2xl">
             <DialogHeader>
-                <DialogTitle className="text-[1.5rem] tracking-normal sm:mt-5 font-poppins-light text-center text-popover-foreground mb-10">It's time you sought help from the experts at <br />Assignment Wallah.</DialogTitle>
+                <DialogTitle className="text-[1.5rem] tracking-normal mt-5 font-poppins-light text-center text-popover-foreground mb-10">It's time you sought help from the experts at <br />Assignment Wallah.</DialogTitle>
                 <DialogDescription>
-                    <div className="grid grid-cols-2 grid-rows-3 gap-x-5 md:grid-cols-1 md:gap-y-5">
+                    <div className="grid md:grid-cols-2  grid-cols-1 md:gap-x-5 gap-y-5 ">
                         <Input type="email" placeholder="Email" className="text-lg" />
                         <Input type="text" placeholder="Subject" className="text-lg" />
                         <Input type="text" placeholder="Technology" className="text-lg" />
@@ -41,6 +41,7 @@ export default function Dialog() {
                             <Input id="file" type="file" className="border-none mt-2" />
                         </div>
                     </div>
+                    <div className="flex flex-col items-center justify-center">
                         <div className="flex items-center my-5">
                             <Checkbox id="terms" />
                             <label
@@ -50,9 +51,10 @@ export default function Dialog() {
                                 I accept Assignment Wallah's terms and conditions. I agree to receive offers and updates.
                             </label>
                         </div>
-                        <Button className={cn(buttonVariants({ variant: 'primary', size: "lg" }), 'text-lg md:w-full')}>
+                        <Button className={cn(buttonVariants({ variant: 'primary', size: "lg" }), 'text-lg w-full md:w-auto')}>
                             Get Assistance
                         </Button>
+                    </div>
                 </DialogDescription>
             </DialogHeader>
         </DialogContent>

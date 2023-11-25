@@ -46,9 +46,9 @@ export default function Process() {
     return (
         <SectionWrapper>
             <SectionHeading title={title} brief={brief} />
-            <SideLayout>
-                <div className="flex md:justify-center items-center group">
-                    <div className="tiny:w-4/5 relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:border-2 before:border-secondary before:rounded-lg  before:-z-10 ">
+            <SideLayout className={""}>
+                <div className="flex items-center justify-center group">
+                    <div className="w-4/5 md:w-auto relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:border-2 before:border-secondary before:rounded-lg  before:-z-10 ">
                         <Image
                             src="/working.jpg"
                             width={550}
@@ -58,12 +58,12 @@ export default function Process() {
                         />
                     </div>
                 </div>
-                <div className="">
+                <div>
                     <h3 className="relative text-2xl text-black ">
                         We have a process.
                         <HightLight className="absolute bottom-0 left-0 translate-y-8" />
                     </h3>
-                    <div className="mt-14 grid  gap-5 grid-rows-2 grid-cols-2 tiny:grid-cols-1">
+                    <div className="mt-14 grid  gap-5  grid-cols-1 min-[460px]:grid-cols-2">
                         {items.map((item, index) => {
                             return <Features key={index} icon={item.icon} content={item.content} />
                         })}

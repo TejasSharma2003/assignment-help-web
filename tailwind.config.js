@@ -8,15 +8,13 @@ module.exports = {
         './src/**/*.{js,jsx}',
     ],
     theme: {
-        screens: {
-            '2xl': { 'max': '1535px' },
-            'xl': { 'max': '1279px' },
-            'lg': { 'max': '1023px' },
-            'md': { 'max': '900px' },
-            'sm': { 'max': '639px' },
-            'sm-2': { 'max': '690px' },
-            'tiny': { 'max' : '474px' },
-        },
+        // '2xl': { 'max': '1535px' },
+        // 'xl': { 'max': '1279px' },
+        // 'lg': { 'max': '1023px' },
+        // 'md': { 'max': '900px' },
+        // 'sm': { 'max': '639px' },
+        // 'sm-2': { 'max': '690px' },
+        // 'tiny': { 'max' : '474px' },
         container: {
             center: true,
             padding: "1rem",
@@ -32,8 +30,8 @@ module.exports = {
                 // 'hero-image': "url('/aboutus.png')",
                 'hero-image': "url('/hero-2.jpg')",
                 'light-gradient': "linear-gradient(122deg, rgba(91, 72, 197, 0.02) -3.16%, rgba(224, 65, 124, 0.02) 95.65%)",
-                'fade-left':'linear-gradient(91deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
-                'fade-right':'linear-gradient(270deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
+                'fade-left': 'linear-gradient(91deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
+                'fade-right': 'linear-gradient(270deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
             },
             fontFamily: {
                 "poppins-light": ["var(--poppins-light)"],
@@ -53,7 +51,7 @@ module.exports = {
                 '5xl': '3.052rem',
             },
             boxShadow: {
-                
+
                 "light": "var(--light)",
             },
             colors: {

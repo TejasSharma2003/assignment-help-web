@@ -12,7 +12,7 @@ export default function UpdatesEmail() {
                         <div className="container flex flex-wrap items-center">
                             <div className="w-full flex text-center flex-col ">
                                 <p className="text-base mb-4 text-white">Subsribe and avail special offers.</p>
-                                <h2 className="mb-6 sm:mb-2 text-3xl font-poppins-semibold leading-tight text-white sm:mb-8 sm:text-2xl lg:mb-0">
+                                <h2 className="mb-6 text-2xl sm:text-3xl font-poppins-semibold leading-tight text-white">
                                     Don&apos;t miss out on the academic adventure – join our newsletter now!
                                 </h2>
                                 <div className="flex justify-center w-full mt-2 items-center space-x-2">

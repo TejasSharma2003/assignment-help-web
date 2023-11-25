@@ -12,7 +12,7 @@ import {
 export default function Faq({ faqs }) {
     const title = "Frequently Asked Questions (FAQ)"
     return (
-        <SectionWrapper>
+        <SectionWrapper >
             <SectionHeading title={title} />
             <div className="container mt-16">
                 <Accordion type="single" collapsible className="flex flex-col gap-5 ">

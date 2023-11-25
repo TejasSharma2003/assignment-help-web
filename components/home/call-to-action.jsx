@@ -16,7 +16,7 @@ export default function Cta() {
                                 <span className="block mb-4 text-lg font-medium text-white">
                                     Get your assignemt blasignly fast with acuraccy.
                                 </span>
-                                <h2 className="mb-6 text-3xl font-poppins-semibold leading-tight text-white sm:text-2xl ">
+                                <h2 className="mb-6 text-2xl sm:text-3xl font-poppins-semibold leading-tight text-white">
                                     Don&apos;t let deadlines stress you out – experience the difference with our expert assistance
                                 </h2>
                                 <Dialog />
