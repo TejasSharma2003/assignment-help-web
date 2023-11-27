@@ -8,17 +8,17 @@ export default function UpdatesEmail() {
         <>
             <SectionWrapper className="bg-light-gradient dark:bg-dark">
                 <div className="">
-                    <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24 ">
-                        <div className="container flex flex-wrap items-center">
-                            <div className="w-full flex text-center flex-col ">
+                    <div className="relative z-10 overflow-hidden rounded bg-secondary py-24 ">
+                        <div className="container flex flex-wrap items-center justify-center">
+                            <div className=" max-w-5xl flex text-center flex-col ">
                                 <p className="text-base mb-4 text-white">Subsribe and avail special offers.</p>
                                 <h2 className="mb-6 text-2xl sm:text-3xl font-poppins-semibold leading-tight text-white">
-                                    Don&apos;t miss out on the academic adventure – join our newsletter now!
+                                    Don&apos;t miss out on the academic adventure <br/>join our newsletter now!
                                 </h2>
                                 <div className="flex justify-center w-full mt-2 items-center space-x-2">
                                     <div className="flex w-full max-w-md items-center">
-                                        <Input type="email" placeholder="Email" className="mr-3"/>
-                                        <Button type="submit">Subscribe</Button>
+                                        <Input type="email" placeholder="Email" className="mr-3 text-lg"/>
+                                        <Button type="submit" className='text-lg'>Subscribe</Button>
                                     </div>
                                 </div>
                             </div>

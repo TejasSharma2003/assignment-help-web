@@ -7,6 +7,7 @@ import Support from "@/components/home/support";
 import Cta from "@/components/home/call-to-action";
 import UpdatesEmail from "@/components/home/updates-email";
 import { assignmentHelpFAQs } from "@/data/faq";
+import Testimonial from "@/components/home/testimonial";
 
 
 export default function MarketingPage({ children }) {
@@ -40,6 +41,7 @@ export default function MarketingPage({ children }) {
             <Support/>
             {/* <Sample featuredBlogs={featuredBlogs}/> */}
             <UpdatesEmail/>
+            <Testimonial/>
             <Faq faqs={assignmentHelpFAQs}/>
         </main>
     )

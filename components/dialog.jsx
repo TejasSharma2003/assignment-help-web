@@ -20,7 +20,7 @@ import {
 export default function Dialog() {
     return <ShadDialog className="">
         <DialogTrigger asChild>
-            <Button className={cn(buttonVariants({ variant: "primary", size: "lg" },), 'text-lg font-medium w-full md:w-auto ')}>
+            <Button className={cn(buttonVariants({ variant: "primary", size: "lg" },), 'text-lg font-medium w-full sm:w-auto ')}>
                 Get Assistance
             </Button>
         </DialogTrigger>

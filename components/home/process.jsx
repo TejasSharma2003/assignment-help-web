@@ -31,7 +31,7 @@ const items = [
 
 const Features = ({ icon, content }) => {
     return (
-        <div className="py-6 px-5  rounded-lg bg-white shadow-light hover:-translate-y-[4px] transition-transform duration-300">
+        <div className="py-6 px-5 border  rounded-lg bg-white shadow-light hover:-translate-y-[4px] transition-transform duration-300">
             {icon}
             <p className="mt-5 text-lg">
                 {content}
@@ -59,8 +59,8 @@ export default function Process() {
                     </div>
                 </div>
                 <div>
-                    <h3 className="relative text-2xl text-black ">
-                        We have a process.
+                    <h3 className="mt-10 min-[900px]:mt-0 relative text-2xl text-black ">
+                        We have been providing
                         <HightLight className="absolute bottom-0 left-0 translate-y-8" />
                     </h3>
                     <div className="mt-14 grid  gap-5  grid-cols-1 min-[460px]:grid-cols-2">

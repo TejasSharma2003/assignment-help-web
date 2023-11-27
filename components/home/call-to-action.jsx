@@ -8,16 +8,16 @@ import Ellipse from "../ui/ellipse";
 export default function Cta() {
     return (
         <>
-            <SectionWrapper className="py-0 bg-light-gradient dark:bg-dark">
+            <SectionWrapper className="">
                 <div className="">
                     <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24" >
-                        <div className="container flex flex-wrap items-center">
-                            <div className="w-full flex items-center text-center flex-col justify-center ">
+                        <div className="container flex flex-wrap items-center justify-center">
+                            <div className="max-w-5xl flex items-center text-center flex-col justify-center ">
                                 <span className="block mb-4 text-lg font-medium text-white">
                                     Get your assignemt blasignly fast with acuraccy.
                                 </span>
                                 <h2 className="mb-6 text-2xl sm:text-3xl font-poppins-semibold leading-tight text-white">
-                                    Don&apos;t let deadlines stress you out – experience the difference with our expert assistance
+                                    Don&apos;t let deadlines stress you out <br/> experience the difference with our expert assistance
                                 </h2>
                                 <Dialog />
                             </div>

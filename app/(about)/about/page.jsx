@@ -1,3 +1,13 @@
+import About from "@/components/about/intro";
+import AboutBanner from "@/components/about/about-banner";
+import Quality from "@/components/about/quality";
+
 export default function AboutFunction() {
-    return <h1>This will be the about page...</h1>
+    return (
+        <>
+            <AboutBanner/>
+            <About />
+            <Quality/>
+        </>
+    )
 }

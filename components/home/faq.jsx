@@ -14,7 +14,7 @@ export default function Faq({ faqs }) {
     return (
         <SectionWrapper >
             <SectionHeading title={title} />
-            <div className="container mt-16">
+            <div className="max-w-5xl mx-auto mt-16  px-5">
                 <Accordion type="single" collapsible className="flex flex-col gap-5 ">
                     {faqs.map((faq, index) => {
                         return <AccordionItem key={index} value={`item-${index + 1}`}>
