@@ -12,24 +12,24 @@ export default function Support() {
             <SectionHeading title={title} brief={brief} />
             <SideLayout className="items-center">
                 <div className="relative after:absolute after:top-0 after:left-0 after:h-full after:w-36 after:z-10 after:bg-fade-left before:absolute before:top-0  before:right-0 before:h-full before:w-36 before:z-10 before:bg-fade-right ">
-                    <Marquee pauseOnClick={true} pauseOnHover={true} play={true} speed={30}>
-                        <Image src='/uni-1.jpg' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                        <Image src='/uni-2.jpg' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                        <Image src='/uni-3.jpg' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                        <Image src='/uni-4.jpg' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                        <Image src='/uni-5.jpg' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                    <Marquee pauseOnClick={true} speed={30} autoFill={true}>
+                        <Image src='/uni-1.jpg' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                        <Image src='/uni-2.jpg' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                        <Image src='/uni-3.jpg' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                        <Image src='/uni-4.jpg' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                        <Image src='/uni-5.jpg' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
                         {/* <Image src="/universities.png" width={1200} height={500} /> */}
                     </Marquee>
                     <div className="mt-5">
-                        <Marquee pauseOnClick={true} pauseOnHover={true} play={true} direction="right" speed={30}>
-                            <Image src='/uni-6.webp' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                            <Image src='/uni-7.jpg' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                            <Image src='/uni-8.png' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
-                            <Image src='/uni-9.png' width={200} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                        <Marquee  pauseOnClick={true} direction="right" speed={30} autoFill={true}>
+                            <Image src='/uni-6.webp' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                            <Image src='/uni-7.jpg' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                            <Image src='/uni-8.png' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
+                            <Image src='/uni-9.png' width={150} height={200} className="rounded-lg ml-5 aspect-square object-cover" />
                         </Marquee>
                     </div>
                 </div>
-                <div className="mt-10 md:mt-0">
+                <div className="mt-10 min-[900px]:mt-0">
                     <h3 className="text-2xl text-black mb-5">Trust
                         <span className="relative"> earned <Image className="absolute bottom-0 left-0 translate-y-1 translate-x-5" src="/short-highlight.svg" width={60} height={10} /></span>
                         through trust.</h3>

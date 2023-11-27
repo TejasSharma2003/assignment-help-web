@@ -30,8 +30,8 @@ module.exports = {
                 // 'hero-image': "url('/aboutus.png')",
                 'hero-image': "url('/hero-2.jpg')",
                 'light-gradient': "linear-gradient(122deg, rgba(91, 72, 197, 0.02) -3.16%, rgba(224, 65, 124, 0.02) 95.65%)",
-                'fade-left': 'linear-gradient(91deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
-                'fade-right': 'linear-gradient(270deg, #fdfbfd,30%, rgba(255, 255, 255, 0.00) 33%)',
+                'fade-left': 'linear-gradient(91deg, #ffff,17%, rgba(255, 255, 255, 0.00) 20%)',
+                'fade-right': 'linear-gradient(270deg, #ffff,17%, rgba(255, 255, 255, 0.00) 20%)',
             },
             fontFamily: {
                 "poppins-light": ["var(--poppins-light)"],
@@ -62,6 +62,7 @@ module.exports = {
                 ring: "hsl(var(--ring))",
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
+                "background-gray": "hsl(var(--background-gray))",
                 primary: {
                     DEFAULT: "hsl(var(--primary))",
                     foreground: "hsl(var(--primary-foreground))",
@@ -69,6 +70,7 @@ module.exports = {
                 secondary: {
                     DEFAULT: "hsl(var(--secondary))",
                     foreground: "hsl(var(--secondary-foreground))",
+                    dark: "#251d4f"
                 },
                 destructive: {
                     DEFAULT: "hsl(var(--destructive))",

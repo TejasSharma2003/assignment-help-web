@@ -49,7 +49,7 @@ export default function() {
         },
     ]
 
-    return <SectionWrapper>
+    return <SectionWrapper className="bg-background-gray">
         <SectionHeading title={title} />
         <div className="container px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="flex flex-col justify-center mx-auto md:text-left lg:mx-0 text-left " >
@@ -65,14 +65,14 @@ export default function() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-5 sm:gap-8 sm:grid-cols-3 mt-10">
+                <div className="grid grid-cols-2 gap-5 sm:gap-8 sm:grid-cols-3 mt-20">
                     {qualities.map((quality, index) => {
-                        return <div className="flex flex-col items-center rounded-xl border  p-4 shadow-light hover:-translate-y-2 transition-transform duration-300 focus:outline-none focus:ring" >
-                            <span className=" inline-block rounded-lg bg-gray-50 p-3 ">
+                        return <div key={index} className="flex flex-col items-center bg-white rounded-xl border  p-4 shadow-light hover:-translate-y-2 transition-transform duration-300 focus:outline-none focus:ring" >
+                            <span className=" inline-block rounded-lg p-3 ">
                                 {quality.icon}
                             </span>
                             <h2 className="my-2 text-lg font-bold text-center">{quality.title}</h2>
-                            <p className="text-center text-base self-baseline flex-1">{quality.brief}</p>
+                            <p className="text-center text-base  flex-1">{quality.brief}</p>
                         </div>
                     })}
                 </div>

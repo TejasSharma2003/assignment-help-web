@@ -10,7 +10,7 @@ export default function Cta() {
         <>
             <SectionWrapper className="">
                 <div className="">
-                    <div className=" relative z-10 overflow-hidden rounded bg-secondary py-24" >
+                    <div className=" relative z-10 overflow-hidden rounded bg-secondary-dark py-24" >
                         <div className="container flex flex-wrap items-center justify-center">
                             <div className="max-w-5xl flex items-center text-center flex-col justify-center ">
                                 <span className="block mb-4 text-lg font-medium text-white">

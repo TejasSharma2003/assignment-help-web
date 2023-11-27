@@ -7,13 +7,11 @@ export default function About() {
     const title = "Why should you trust us?"
     const brief = "A brief introduction of assignment wallah and there achievements"
     return (
-    <SectionWrapper>
-            <SectionHeading title={title} brief={brief}/>
+        <SectionWrapper>
+            <SectionHeading title={title} brief={brief} />
             <SideLayout>
+                <Stats />
                 <div>
-                    <Stats/>
-                </div>
-                <div className="mt-10">
                     <div>
                         <h3 className="text-2xl text-black">We are the force of truth.</h3>
                         <p> Assignment Wallah is an online educational research platform that connects students with experienced researchers who can assist them in high-quality projects that will help them score well. Our team of experts creates non-plagiarized content for study papers and online classes, which helps students enhance their knowledge.</p>

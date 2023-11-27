@@ -40,7 +40,7 @@ const Features = ({ icon, content }) => {
     )
 }
 export default function Process() {
-    const title = "Our Approach to deliver a perfect solution";
+    const title = "Our approach to deliver a perfect solution";
     const brief = "Beat The Stress By Using Thesis Writing Help For Your Coursework"
 
     return (
@@ -48,7 +48,7 @@ export default function Process() {
             <SectionHeading title={title} brief={brief} />
             <SideLayout className={""}>
                 <div className="flex items-center justify-center group">
-                    <div className="w-4/5 md:w-auto relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:border-2 before:border-secondary before:rounded-lg  before:-z-10 ">
+                    <div className="w-4/5 md:w-auto relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:border-2 before:border-secondary  before:rounded-lg  ">
                         <Image
                             src="/working.jpg"
                             width={550}

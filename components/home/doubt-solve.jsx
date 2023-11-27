@@ -23,12 +23,14 @@ export default function DoubtSolve() {
                             <p className="text-black text-lg">Collect you Doubts from bucket</p>
                             <p className="text-lg mt-2">We collect your doubts  and question from the  dashboard</p>
                         </div>
+                        <img src="/link-top.svg" className="hidden absolute bottom-0 translate-y-full lg:block"/>
                     </div>
                     <div className={cn("relative md:max-w-xs md:absolute md:left-0 md:bottom-0 md:mt-0 min-[900px]:bottom-1/2 min-[900px]:translate-y-1/2  mt-5  w-full bg-white rounded-lg  shadow-light  py-5 px-2 flex ",classBorder)}> <span className="text-secondary text-[1.2rem] ">02.</span>
                         <div className="ml-5">
                             <p className="text-black text-lg">Assign to pure domain expert</p>
                             <p className="text-lg mt-2  ">To clear your doubts, we allocate it to domain expert.</p>
                         </div>
+                        <img src="/link-top.svg" className="hidden absolute bottom-0 right-0 translate-y-full scale-x-[-1] lg:block"/>
                     </div>
                     <div className={cn("relative md:max-w-xs md:absolute md:right-0 md:bottom-0 md:mt-0 min-[900px]:translate-y-2/4  mt-5  w-full bg-white rounded-lg  shadow-light  py-5 px-2 flex ",classBorder)}> <span className="text-secondary text-[1.2rem] rounded-lg">03.</span> <div className="ml-5"> <p className="text-black text-lg">Get back to you with perfection</p> <p className="text-lg mt-2">Get your answer in mail or live session.</p> </div>
                     </div>

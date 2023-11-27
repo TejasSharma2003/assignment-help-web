@@ -1,13 +1,12 @@
 import MainNavbar from "@/components/main-navbar";
-import Footer from "@/components/site-footer";
-import SiteFooter from "@/components/site-footer-pre";
+import SiteFooter from "@/components/site-footer";
 
 export default function AboutLayout({ children }) {
     return (
         <main>
-            {/* <MainNavbar/> */}
+            <MainNavbar/>
             {children}
-            {/* <Footer/> */}
+            <SiteFooter/>
         </main>
     )
 }

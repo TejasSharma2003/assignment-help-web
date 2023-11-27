@@ -8,7 +8,7 @@ export default function UpdatesEmail() {
         <>
             <SectionWrapper className="bg-light-gradient dark:bg-dark">
                 <div className="">
-                    <div className="relative z-10 overflow-hidden rounded bg-secondary py-24 ">
+                    <div className="relative z-10 overflow-hidden rounded bg-secondary-dark py-24 ">
                         <div className="container flex flex-wrap items-center justify-center">
                             <div className=" max-w-5xl flex text-center flex-col ">
                                 <p className="text-base mb-4 text-white">Subsribe and avail special offers.</p>

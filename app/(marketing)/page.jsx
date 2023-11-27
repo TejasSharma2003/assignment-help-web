@@ -38,9 +38,8 @@ export default function MarketingPage({ children }) {
             <Process/>
             <Cta/>
             <DoubtSolve/>
-            <Support/>
-            {/* <Sample featuredBlogs={featuredBlogs}/> */}
             <UpdatesEmail/>
+            <Support/>
             <Testimonial/>
             <Faq faqs={assignmentHelpFAQs}/>
         </main>
