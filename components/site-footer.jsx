@@ -3,17 +3,18 @@
 import Logo from "./logo";
 import { Input } from './ui/input'
 import { Button } from "./ui/button";
+import Ellipse from "./ui/ellipse";
 
 export default function Footer() {
-    return <footer className="bg-secondary-dark text-white">
-        <div
-            className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8"
-        >
+    return <footer className=" relative mt-16  bg-secondary-dark text-white">
+        <Ellipse className="absolute top-0 left-0"/>
+        <Ellipse className="absolute top-0 right-0 scale-x-[-1] hidden sm:block"/>
+        <div className="relative mx-auto max-w-screen-xl space-y-8 px-4 pt-16 pb-8 sm:px-6 lg:space-y-16 lg:px-8" >
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                 <div>
-                    <div className="">
+                    <span className="bg-white inline-block rounded-lg py-2 px-5 ">
                         <Logo />
-                    </div>
+                    </span>
                     <p className="text-base text-white mt-5  mb-5">
                         Assignment Wallah Pvt Ltd<br />1234 Elm Street Apt 567 Springfield,<br />IL 12345
                         United States</p>

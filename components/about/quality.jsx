@@ -1,10 +1,9 @@
 import { cn } from "@/lib/utils";
 import Dialog from "../dialog"
 import SectionHeading from "../section-heading"
-import SideLayout from "../side-layout";
 import SectionWrapper from "../ui/section-wrapper"
 import HightLight from "../hightlight";
-import { History, Underline } from 'lucide-react';
+import { History } from 'lucide-react';
 import { GraduationCap } from 'lucide-react';
 import { LibraryBig } from 'lucide-react';
 import { User } from "lucide-react";
@@ -51,7 +50,7 @@ export default function() {
 
     return <SectionWrapper className="bg-background-gray">
         <SectionHeading title={title} />
-        <div className="container px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="container px-4 py-5 sm:px-6 sm:py-8 lg:px-8 ">
                 <div className="flex flex-col justify-center mx-auto md:text-left lg:mx-0 text-left " >
                     <div className="text-center">
                         <h2 className="text-2xl text-black">Find your<span className="relative"> carrer <HightLight className="absolute bottom-0 left-0 translate-y-2" /> </span> path</h2>

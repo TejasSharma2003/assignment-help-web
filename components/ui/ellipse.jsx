@@ -1,9 +1,10 @@
-export default function Ellipse() {
+export default function Ellipse({ className = '' }) {
     return <svg width="189"
         height="162"
         viewBox="0 0 189 162"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className={className}
     >
         <ellipse
             cx="16"

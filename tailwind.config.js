@@ -24,7 +24,11 @@ module.exports = {
         },
         extend: {
             gridTemplateColumns: {
-                'footer': '1.5fr 1fr 1fr 1fr 1.5fr'
+                'footer': '1.5fr 1fr 1fr 1fr 1.5fr',
+                'expert-layout-cols': 'minmax(150px,350px) minmax(0,200px) minmax(0,200px) minmax(0,200px)'
+            },
+            gridTemplateRows: {
+                'expert-layout-rows': '75px 75px 158px 170px'
             },
             backgroundImage: {
                 // 'hero-image': "url('/aboutus.png')",
@@ -55,7 +59,7 @@ module.exports = {
                 "light": "var(--light)",
             },
             colors: {
-                overlay: 'rgba(0, 0, 0, 0.60)',
+                overlay: 'rgba(0, 0, 0, 0.75)',
                 "sub-heading-fill": "hsl(var(--sub-heading-fill))",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
@@ -70,6 +74,7 @@ module.exports = {
                 secondary: {
                     DEFAULT: "hsl(var(--secondary))",
                     foreground: "hsl(var(--secondary-foreground))",
+                    700: "#41338C",
                     dark: "#251d4f"
                 },
                 destructive: {

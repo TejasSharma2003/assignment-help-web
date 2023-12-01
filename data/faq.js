@@ -12,7 +12,7 @@ export const assignmentHelpFAQs = [
     answer: "To place an order, you can visit our website and fill out the order form. Provide detailed instructions for your assignment, including the topic, deadline, and any specific requirements. Once you submit the form, our team will review your request and assign the most suitable expert to assist you."
   },
   {
-    question: "4. Can I communicate with the assigned expert during the process?",
+    question: "4. Can I communicate with expert during the process?",
     answer: "Yes, we encourage communication between clients and experts. Once an expert is assigned to your project, you can use our messaging system to communicate directly. This allows you to provide additional instructions, ask questions, and stay updated on the progress of your assignment."
   },
   {

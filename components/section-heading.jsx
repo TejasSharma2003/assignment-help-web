@@ -1,7 +1,8 @@
 import Image from "next/image"
-export default function SectionHeading({ title, brief }) {
+import { cn } from "@/lib/utils"
+export default function SectionHeading({ title, brief, className }) {
     return (
-        <div className="flex flex-col md:items-center px-4">
+        <div className={cn("flex flex-col md:items-center px-4", className)}>
             {/* The heading and the image */}
             <div className="md:flex md:items-center">
                 <Image className="hidden md:block" src="/left-divide.svg" width={60} height={8} />

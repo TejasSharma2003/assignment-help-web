@@ -9,6 +9,7 @@ import SectionHeading from "../section-heading"
 import HightLight from "../hightlight"
 import SectionWrapper from "../ui/section-wrapper"
 import Ellipse from "../ui/ellipse"
+import LinesWave from "../ui/lines-wave"
 
 const items = [
     {
@@ -44,10 +45,10 @@ export default function Process() {
     const brief = "Beat The Stress By Using Thesis Writing Help For Your Coursework"
 
     return (
-        <SectionWrapper>
-            <SectionHeading title={title} brief={brief} />
-            <SideLayout className={""}>
-                <div className="flex items-center justify-center group">
+        <SectionWrapper className="relative bg-background-gray">
+            <SectionHeading className="relative z-10" title={title} brief={brief} />
+            <SideLayout className="relative z-10">
+                <div className="relative flex items-center justify-center group">
                     <div className="w-4/5 md:w-auto relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:border-2 before:border-secondary  before:rounded-lg  ">
                         <Image
                             src="/working.jpg"
@@ -70,6 +71,7 @@ export default function Process() {
                     </div>
                 </div>
             </SideLayout>
+            <LinesWave className="absolute fill-secondary top-0 left-0 opacity-20"  />
         </SectionWrapper>
     )
 }

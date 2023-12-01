@@ -17,20 +17,12 @@ export const company = {
             href: "/experts"
         },
         {
-            title:"Contact Us",
-            href: "/contact"
-        },
-        {
             title:"Blogs",
             href: "/blogs"
         },
         {
-            title:"Offer Zone",
-            href: "/offer-zone"
-        },
-        {
-            title:"Hots",
-            href: "/hots"
+            title:"Contact Us",
+            href: "/contact"
         },
     ],
 
