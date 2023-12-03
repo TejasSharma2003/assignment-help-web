@@ -75,7 +75,7 @@ export default function Experts() {
                             {/* <span className=" inline-block rounded-lg p-3 "> */}
                             {/*     {quality.icon} */}
                             {/* </span> */}
-                            <h2 className="my-2 text-lg font-bold ">{reason.point}</h2>
+                            <h2 className="my-2 text-xl font-medium">{reason.point}</h2>
                             <p className="text-base  flex-1">{reason.description}</p>
                         </div>
                     })}

@@ -28,7 +28,7 @@ module.exports = {
                 'expert-layout-cols': 'minmax(150px,350px) minmax(0,200px) minmax(0,200px) minmax(0,200px)'
             },
             gridTemplateRows: {
-                'expert-layout-rows': '75px 75px 158px 170px'
+                'expert-layout-rows': '120px 200px 170px'
             },
             backgroundImage: {
                 // 'hero-image': "url('/aboutus.png')",

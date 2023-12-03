@@ -35,7 +35,7 @@ export default function MarketingPage() {
     return (
         <HeroMain className="relative bg-secondary-dark pb-80 sm:pb-40 md:pb-40 md:bg-hero-image bg-top lg:min-h-max bg-cover  bg-no-repeat before:absolute before:h-full before:w-full before:top-0 before:left-0 md:before:bg-overlay " >
             <div className=" container relative z-10 max-w-7xl mx-auto text-center md:text-left">
-                <div className="max-w-3xl ">
+                <div className="max-w-3xl">
                     <div className="flex flex-col items-center md:block">
                         <h1 className="text-3xl md:text-[2.5rem] leading-tight font-poppins-bold text-white ">Empowering Education Your <br /> Source for Assignment <span className="relative">Success!<HightLight className="absolute bottom-0 left-0 translate-y-3" /></span></h1>
                         <p className="max-w-xl mt-4 mb-5 text-white/[.7]  ">Hey students! The World’s Leading Technical Assignment Help Platform is close to you for clearing your doubts in your research module.</p>

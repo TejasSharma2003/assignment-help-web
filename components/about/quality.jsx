@@ -64,7 +64,7 @@ export default function() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-5 sm:gap-8 sm:grid-cols-3 mt-20">
+                <div className="grid grid-cols-2 gap-5 sm:gap-8 sm:grid-cols-3 mt-8">
                     {qualities.map((quality, index) => {
                         return <div key={index} className="flex flex-col items-center bg-white rounded-xl border  p-4 shadow-light hover:-translate-y-2 transition-transform duration-300 focus:outline-none focus:ring" >
                             <span className=" inline-block rounded-lg p-3 ">
