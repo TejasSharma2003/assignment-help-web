@@ -45,7 +45,7 @@ export default function Process() {
     const brief = "Beat The Stress By Using Thesis Writing Help For Your Coursework"
 
     return (
-        <SectionWrapper className="relative bg-background-gray">
+        <SectionWrapper className="relative pt-80 sm:pt-40 bg-background-gray overflow-hidden">
             <SectionHeading className="relative z-10" title={title} brief={brief} />
             <SideLayout className="relative z-10">
                 <div className="relative flex items-center justify-center group">
@@ -71,7 +71,7 @@ export default function Process() {
                     </div>
                 </div>
             </SideLayout>
-            <LinesWave className="absolute fill-secondary top-0 left-0 opacity-20"  />
+            <LinesWave className="hidden md:block absolute fill-secondary top-0 left-0 opacity-10"  />
         </SectionWrapper>
     )
 }

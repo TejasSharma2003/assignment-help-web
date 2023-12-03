@@ -19,31 +19,7 @@ export default function ExpertsBanner() {
                 <p className="my-3 sm:text-xl/relaxed text-white/70">Experts are assignment are well qualified to solve any doubts and get assignment done in no time.</p>
                 <Dialog />
             </div>
-            <div className="relative mt-24 grid z-10  gap-5 grid-rows-expert-layout-rows grid-cols-expert-layout-cols justify-center">
-                <div className="bg-secondary-700 rounded-lg flex items-center">
-                    <div className="flex items-center px-2">
-                        <Avatar>
-                            <AvatarImage src="https://github.com/shadcn.png" />
-                            <AvatarFallback>CN</AvatarFallback>
-                        </Avatar>
-                        <div className="text-white ml-4" >
-                            <h6 className="font-semibold text-lg">Aline shief</h6>
-                            <p className="text-base text-white/70">I really got an ace assignment help from the experts</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="bg-secondary-700 px-2 rounded-lg flex items-center row-start-2 row-end-2">
-                    <div className="flex items-center">
-                        <Avatar>
-                            <AvatarImage src="https://github.com/shadcn.png" />
-                            <AvatarFallback>CN</AvatarFallback>
-                        </Avatar>
-                        <div className="text-white ml-4" >
-                            <h6 className="font-semibold text-lg">Aline shief</h6>
-                            <p className="text-base text-white/70">I really got an ace assignment help from the experts</p>
-                        </div>
-                    </div>
-                </div>
+            <div className="relative grid z-10  gap-5 grid-rows-expert-layout-rows grid-cols-expert-layout-cols justify-center">
                 <Image className="rounded-lg row-start-3 row-end-5 h-full object-cover" src="/expert-with-smile.jpg" width={400} height={348} quality={90} />
                 <Image className="rounded-lg row-start-3 row-end-4 col-start-3 h-full object-cover" src="/expert-with-marker.jpg" width={200} height={300} quality={90} />
                 <Image className="rounded-lg row-start-2 row-end-4 h-full object-cover" src="/expert-girl-glasses.jpg" width={200} height={158} quality={90} />

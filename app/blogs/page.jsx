@@ -20,8 +20,8 @@ export default function BlogsPage() {
         <SectionWrapper>
             <SectionHeading title="Popular Blogs" brief="Explore a plethora of insightful blogs brought to you by Assignment Wallah" />
             <Blogs className="mt-14 max-w-7xl mx-auto grid lg:grid-cols-2 gap-10" />
-            <div className="flex justify-center mt-36">
-                <Button className={cn(buttonVariants({ variant: 'secondary' }), 'text-lg text-white uppercase')}>show more</Button>
+            <div className="flex justify-center mt-10 md:mt-20">
+                <Button className={cn(buttonVariants({ variant: 'outline' }), 'text-lg text-secondary uppercase hover:bg-secondary hover:text-white')}>show more</Button>
             </div>
         </SectionWrapper>
     </>

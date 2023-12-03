@@ -22,7 +22,7 @@ function BlogCard() {
         </div>
 
         <div className="flex flex-1 flex-col justify-between">
-            <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+            <div className="sm:border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                 <a href="#">
                     <h3 className="font-bold uppercase text-gray-900">
                         Finding the right guitar for your style - 5 tips
@@ -37,12 +37,12 @@ function BlogCard() {
                     Molestias explicabo corporis voluptatem?
                 </p>
             </div>
-
-            <div className="sm:flex sm:items-end sm:justify-end mr-2 mb-2">
+            <div className="sm:flex sm:items-end sm:justify-end pl-4 mr-2 mb-3 sm:mt-5">
                 <Button className={cn(buttonVariants({ variant: 'secondary' }), 'text-white text-lg')}>
                     Read Blog
                 </Button>
             </div>
+
         </div>
     </article>
 }
