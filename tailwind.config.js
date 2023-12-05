@@ -76,6 +76,7 @@ module.exports = {
                     foreground: "hsl(var(--secondary-foreground))",
                     700: "#41338C",
                     dark: "#251d4f"
+
                 },
                 destructive: {
                     DEFAULT: "hsl(var(--destructive))",
@@ -119,5 +120,7 @@ module.exports = {
             },
         },
     },
-    plugins: [require("tailwindcss-animate")],
+    plugins: [require("tailwindcss-animate"),
+    require('@tailwindcss/typography'),
+    ],
 }

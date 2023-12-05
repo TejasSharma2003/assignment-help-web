@@ -1,173 +1,92 @@
 export const samplesData = [
     {
-        title: 'Virtual Desktop Solution',
-        topic: 'tech',
-        preview: 'WIRELESS COMMUNICATIONS & NETWORKS Write a tutorial paper of between 3000 and 4000 words on a topic that either extends what presented in the lecture..',
-        views: 734,
-        downloads: 43,
-        pages: 15,
-        words: 3552
+        "title": "Effective Time Management Strategies for Students",
+        "topic": "education",
+        "preview": "Learn essential time management techniques tailored for students to enhance productivity and reduce stress. This assignment provides practical tips and tools to help you balance academic and personal commitments.",
+        "views": 876,
+        "downloads": 62,
+        "pages": 10,
+        "words": 2800
     },
     {
-        title: 'Machine Learning in Healthcare',
-        topic: 'tech',
-        preview: 'Explore the application of machine learning algorithms in predicting and diagnosing medical conditions. This paper delves into the intersection of technology and healthcare.',
-        views: 892,
-        downloads: 65,
-        pages: 20,
-        words: 4210
+        "title": "Introduction to Python Programming",
+        "topic": "programming",
+        "preview": "Explore the fundamentals of Python programming in this comprehensive tutorial. Perfect for beginners, this assignment covers basic syntax, data types, and hands-on exercises to reinforce your learning.",
+        "views": 1200,
+        "downloads": 98,
+        "pages": 12,
+        "words": 3200
     },
     {
-        title: 'Environmental Sustainability Practices',
-        topic: 'environment',
-        preview: 'An in-depth analysis of current environmental sustainability practices in various industries. Learn about the challenges, innovations, and future prospects for a greener planet.',
-        views: 612,
-        downloads: 51,
-        pages: 18,
-        words: 3895
+        "title": "Global Economic Trends in the 21st Century",
+        "topic": "economics",
+        "preview": "Analyze key economic trends shaping the world in the 21st century. This assignment delves into topics such as globalization, digital economies, and their impact on traditional economic models.",
+        "views": 543,
+        "downloads": 34,
+        "pages": 18,
+        "words": 3800
     },
     {
-        title: 'The Impact of Social Media on Society',
-        topic: 'social-media',
-        preview: 'Examine the societal implications of widespread social media usage. This paper discusses the effects on communication, mental health, and the overall fabric of our interconnected world.',
-        views: 1034,
-        downloads: 78,
-        pages: 22,
-        words: 4687
+        "title": "Environmental Sustainability Practices",
+        "topic": "environment",
+        "preview": "Discover sustainable practices for a greener planet. This assignment explores eco-friendly initiatives, renewable energy sources, and the role individuals play in promoting environmental conservation.",
+        "views": 654,
+        "downloads": 45,
+        "pages": 15,
+        "words": 3500
     },
     {
-        title: 'Cybersecurity in the Digital Age',
-        topic: 'tech',
-        preview: 'Dive into the evolving landscape of cybersecurity. Explore the latest threats, preventive measures, and the role of individuals and organizations in maintaining a secure digital environment.',
-        views: 785,
-        downloads: 57,
-        pages: 16,
-        words: 4023
+        "title": "Psychology of Stress Management",
+        "topic": "psychology",
+        "preview": "Examine the psychological aspects of stress and effective coping mechanisms. This assignment provides insights into understanding and managing stress for improved mental well-being.",
+        "views": 789,
+        "downloads": 56,
+        "pages": 14,
+        "words": 3000
     },
     {
-        title: 'Artificial Intelligence in Business Strategy',
-        topic: 'tech',
-        preview: 'An overview of how AI is reshaping business strategies. Explore case studies and examples of successful integration of artificial intelligence in various industries.',
-        views: 645,
-        downloads: 49,
-        pages: 19,
-        words: 4158
+        "title": "Cybersecurity Fundamentals for Beginners",
+        "topic": "cybersecurity",
+        "preview": "Begin your journey into cybersecurity with this beginner-friendly guide. Understand basic concepts, threat landscapes, and essential practices to secure digital information.",
+        "views": 932,
+        "downloads": 72,
+        "pages": 11,
+        "words": 2600
     },
     {
-        title: 'Innovations in Renewable Energy',
-        topic: 'environment',
-        preview: 'Discover the latest innovations in renewable energy sources. This paper covers advancements in solar, wind, and hydroelectric technologies and their impact on sustainable energy.',
-        views: 523,
-        downloads: 36,
-        pages: 17,
-        words: 3780
+        "title": "Advancements in Artificial Intelligence",
+        "topic": "artificial intelligence",
+        "preview": "Explore the latest advancements in artificial intelligence technology. This assignment covers machine learning, neural networks, and real-world applications reshaping industries.",
+        "views": 1100,
+        "downloads": 88,
+        "pages": 16,
+        "words": 3400
     },
     {
-        title: 'The Future of Work: Remote Collaboration',
-        topic: 'work',
-        preview: 'Explore the dynamics of remote work and collaboration. Discuss the challenges, benefits, and technologies shaping the future of work in a globally connected environment.',
-        views: 876,
-        downloads: 60,
-        pages: 21,
-        words: 4372
+        "title": "History of Modern Art Movements",
+        "topic": "art",
+        "preview": "Journey through the evolution of modern art movements. This assignment traces the development of various art styles, from impressionism to contemporary art, and their cultural impact.",
+        "views": 654,
+        "downloads": 40,
+        "pages": 20,
+        "words": 4200
     },
     {
-        title: 'Economic Impacts of Global Pandemics',
-        topic: 'economics',
-        preview: 'Analyze the economic repercussions of global pandemics throughout history. Understand the lessons learned and strategies for economic resilience in the face of health crises.',
-        views: 742,
-        downloads: 54,
-        pages: 18,
-        words: 3985
+        "title": "Introduction to Data Science with R",
+        "topic": "data science",
+        "preview": "Get started with data science using the R programming language. This assignment covers data manipulation, visualization, and statistical analysis to kickstart your data science journey.",
+        "views": 800,
+        "downloads": 65,
+        "pages": 13,
+        "words": 3100
     },
     {
-        title: 'Blockchain Technology in Finance',
-        topic: 'tech',
-        preview: 'Delve into the application of blockchain in the financial sector. Explore how distributed ledger technology is revolutionizing transactions, security, and transparency in finance.',
-        views: 932,
-        downloads: 71,
-        pages: 20,
-        words: 4510
-    },
-    {
-        title: 'Space Exploration and Colonization',
-        topic: 'science',
-        preview: 'Examine the possibilities and challenges of space exploration and colonization. Discuss the latest developments, missions, and the potential for human settlement beyond Earth.',
-        views: 809,
-        downloads: 58,
-        pages: 19,
-        words: 4225
-    },
-    {
-        title: 'Mental Health Awareness in Schools',
-        topic: 'health',
-        preview: 'Address the importance of mental health awareness programs in educational institutions. Explore strategies for promoting well-being and supporting students\' mental health needs.',
-        views: 587,
-        downloads: 42,
-        pages: 16,
-        words: 3655
-    },
-    {
-        title: 'Smart Cities: Urban Innovation',
-        topic: 'tech',
-        preview: 'Investigate the concept of smart cities and how urban innovation is shaping the future. Explore technological advancements, sustainability practices, and citizen engagement.',
-        views: 678,
-        downloads: 50,
-        pages: 18,
-        words: 3948
-    },
-    {
-        title: 'Augmented Reality in Education',
-        topic: 'education',
-        preview: 'Explore the integration of augmented reality (AR) in educational settings. Discuss the potential benefits, challenges, and examples of AR applications enhancing learning experiences.',
-        views: 765,
-        downloads: 59,
-        pages: 17,
-        words: 4087
-    },
-    {
-        title: 'Crisis Management in Business',
-        topic: 'business',
-        preview: 'Analyze effective crisis management strategies in the business world. Learn from case studies and examples to understand how organizations navigate and recover from crises.',
-        views: 813,
-        downloads: 62,
-        pages: 21,
-        words: 4453
-    },
-    {
-        title: 'Diversity and Inclusion in the Workplace',
-        topic: 'business',
-        preview: 'Examine the importance of fostering diversity and inclusion in corporate environments. Discuss strategies, challenges, and the positive impact on organizational culture and performance.',
-        views: 699,
-        downloads: 48,
-        pages: 20,
-        words: 4312
-    },
-    {
-        title: 'Advancements in Medical Imaging Technology',
-        topic: 'health',
-        preview: 'Explore the latest advancements in medical imaging technology. Discuss the impact on diagnostics, patient care, and the future possibilities of imaging techniques in healthcare.',
-        views: 876,
-        downloads: 67,
-        pages: 22,
-        words: 4756
-    },
-    {
-        title: 'The Role of Women in STEM Fields',
-        topic: 'science',
-        preview: 'Highlight the contributions of women in science, technology, engineering, and mathematics (STEM) fields. Discuss challenges, achievements, and initiatives promoting gender equality in STEM.',
-        views: 632,
-        downloads: 46,
-        pages: 19,
-        words: 4098
-    },
-    {
-        title: 'Renewable Energy Policies and Global Impact',
-        topic: 'environment',
-        preview: 'Analyze the impact of renewable energy policies on a global scale. Explore government initiatives, international collaborations, and the role of policy frameworks in promoting sustainable energy.',
-        views: 754,
-        downloads: 46,
-        pages: 19,
-        words: 4098
+        "title": "Exploring Cultural Diversity in Business",
+        "topic": "business",
+        "preview": "Understand the importance of cultural diversity in the business world. This assignment examines strategies for building inclusive workplaces and leveraging cultural differences for success.",
+        "views": 600,
+        "downloads": 50,
+        "pages": 17,
+        "words": 3600
     }
 ]

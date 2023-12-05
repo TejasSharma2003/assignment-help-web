@@ -19,7 +19,7 @@ export default function ContactPage() {
                         <div className="flex flex-col items-center p-5">
                             <span className=""><MapPin className="stroke-secondary" /></span>
                             <h6 className="text-lg font-semibold mt-3 mb-1">Corporate Address</h6>
-                            <p class="text-base text-center mt-3">
+                            <p className="text-base text-center mt-3">
                                 Assignment Wallah Pvt Ltd<br />
                                 1234 Elm Street Apt 567<br />
                                 Springfield, IL 12345<br />
@@ -29,7 +29,7 @@ export default function ContactPage() {
                         <div className="flex flex-col items-center p-5">
                             <span className=""><Clock10 className="stroke-secondary" /></span>
                             <h6 className="text-lg font-semibold mt-3 mb-1">Office timings</h6>
-                            <p class="text-base text-center mt-3">
+                            <p className="text-base text-center mt-3">
                                 <strong>Monday to Friday : </strong> 10 am - 8 pm IST<br />
                                 <strong>Saturday to Sunday : </strong> 10 am - 5 pm IST
                             </p>
@@ -37,7 +37,7 @@ export default function ContactPage() {
                         <div className="flex flex-col items-center p-5">
                             <span className=""><Mail className="stroke-secondary" /></span>
                             <h6 className="text-lg font-semibold mt-3 mb-1">Contact Details</h6>
-                            <p class="text-base text-center mt-3">
+                            <p className="text-base text-center mt-3">
                                 <strong>Phone : </strong> +91-83880 88212<br />
                                 <strong>Email : </strong> <a href="mailto:help@assignmentwallah.com">help@assignmentwallah.com</a><br />
                                 <strong>Email : </strong> <a href="mailto:help.assignmentwallah@gmail.com">help.assignmentwallah@gmail.com</a>

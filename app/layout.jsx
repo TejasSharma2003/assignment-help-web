@@ -3,8 +3,6 @@ import localFont from 'next/font/local'
 
 import { cn } from '@/lib/utils'
 import Providers from './providers';
-import { MessageCircle } from 'lucide-react'
-import Announcement from '@/components/ui/announcement';
 
 export const poppinsLight = localFont({
     src: '../assets/fonts/Poppins-Light.ttf',
@@ -33,7 +31,7 @@ export const poppinsSemiBold = localFont({
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" suppressHydrationWarning >
+        <html lang="en" suppressHydrationWarning={true} >
             <body className={cn(
                 "min-h-screen bg-background antialiased font-poppins-regular",
                 poppinsLight.variable,

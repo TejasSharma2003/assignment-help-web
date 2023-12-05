@@ -4,7 +4,7 @@ import Footer from "@/components/site-footer";
 export default function BlogsLayout({ children }) {
     return (
         <>
-            <MainNavbar />
+            <MainNavbar variant="dark"/>
             {children}
             <Footer />
         </>

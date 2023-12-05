@@ -4,7 +4,7 @@ import SiteFooter from "@/components/site-footer";
 export default function SamplesLayout({ children }) {
     return (
         <>
-            <MainNavbar />
+            <MainNavbar variant="dark"/>
             <main>
                 {children}
                 <SiteFooter />

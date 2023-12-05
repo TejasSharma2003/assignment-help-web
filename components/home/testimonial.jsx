@@ -3,9 +3,9 @@ import SectionHeading from "../section-heading"
 import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
 import { buttonVariants } from "../ui/button";
-import RenderFromTemplateContext from "next/dist/client/components/render-from-template-context";
 import { reviews } from "@/data/reviews";
 import Review from "../review";
+import Link from "next/link";
 
 export default function Testimonial() {
     const title = ' Read trusted reviews from our students';
@@ -21,9 +21,9 @@ export default function Testimonial() {
             </div>
 
             <div className="flex justify-center mt-8">
-                <Button
-                    className={cn(buttonVariants({ variant: 'link' }), "mt-5 text-lg")}>
-                    <span className="font-medium text-white"> Read all reviews </span>
+                <Button asClild
+                    className={cn(buttonVariants({ variant: 'secondary' }), "mt-5 text-lg")}>
+                    <Link href='/about' className="font-medium text-white">React all reviews</Link>
                 </Button>
             </div>
         </div>

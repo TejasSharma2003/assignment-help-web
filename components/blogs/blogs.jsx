@@ -1,61 +1,48 @@
+import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { Button, buttonVariants } from "../ui/button"
-function BlogCard() {
-    return <article className="border flex bg-white transition duration-300 hover:shadow-light  rounded-lg">
-        <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
-            <time
-                datetime="2022-10-10"
-                className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
-            >
-                <span>2022</span>
-                <span className="w-px flex-1 bg-gray-900/10"></span>
-                <span>Oct 10</span>
-            </time>
-        </div>
+import { formatDate } from "../../lib/utils"
+import { dummyBlogs } from "../../data/dummy-blogs"
 
-        <div className="hidden sm:block sm:basis-56">
-            <img
-                alt="Guitar"
-                src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                className="aspect-square h-full w-full object-cover"
-            />
-        </div>
+function BlogCard({ title, brief, date, slug, image }) {
+    return (
+        <article className="border relative flex bg-white transition duration-300 hover:shadow-light  rounded-lg overflow-hidden">
+            <div className="hidden sm:block sm:basis-56">
+                <img
+                    alt="Image"
+                    src={image}
+                    className="aspect-square h-full w-full object-cover"
+                />
+            </div>
 
-        <div className="flex flex-1 flex-col justify-between">
-            <div className="sm:border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
-                <a href="#">
-                    <h3 className="font-bold uppercase text-gray-900">
-                        Finding the right guitar for your style - 5 tips
+            <div className="flex flex-1 flex-col justify-between">
+                <div className="sm:border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                    <h3 className="font-semibold text-black/70 tracking-wide">
+                        {title}
                     </h3>
-                </a>
-
-                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-                    dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-                    sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-                    voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-                    Molestias explicabo corporis voluptatem?
-                </p>
+                    <p className="mt-2 line-clamp-3 text-sm/relaxed text-muted-foreground">
+                        {brief}
+                    </p>
+                </div>
+                <div className="text-right p-4 sm:p-6">
+                    <p className="text-sm text-muted-foreground">
+                        Published on {formatDate(date)}
+                    </p>
+                </div>
             </div>
-            <div className="sm:flex sm:items-end sm:justify-end pl-4 mr-2 mb-3 sm:mt-5">
-                <Button className={cn(buttonVariants({ variant: 'secondary' }), 'text-white text-lg')}>
-                    Read Blog
-                </Button>
-            </div>
-
-        </div>
-    </article>
+            <Link href={`/blogs/${slug}`} className="absolute inset-0">
+                <span className="sr-only">Read Blog</span>
+            </Link>
+        </article >
+    )
 }
 
-export default function Blogs({ className }) {
+export default function Blogs({ previewBlogs, className }) {
     return (
         <div className={cn(className)}>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
+            {previewBlogs.map((blog, index) => {
+                return <BlogCard key={blog.slug} {...blog} />
+            })}
         </div>
     )
 

@@ -53,7 +53,7 @@ export default function() {
         <div className="container px-4 py-5 sm:px-6 sm:py-8 lg:px-8 ">
                 <div className="flex flex-col justify-center mx-auto md:text-left lg:mx-0 text-left " >
                     <div className="text-center">
-                        <h2 className="text-2xl text-black">Find your<span className="relative"> carrer <HightLight className="absolute bottom-0 left-0 translate-y-2" /> </span> path</h2>
+                        <h2 className="text-2xl text-black">Find your<span className="relative"> carrer <HightLight className="absolute bottom-0 left-0 translate-y-5" /> </span> path</h2>
                         <p className="my-4 text-gray-600">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero
                             aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda?

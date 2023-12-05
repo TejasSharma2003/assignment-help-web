@@ -6,15 +6,22 @@ import { buttonVariants } from "@/components/ui/button"
 import Logo from "@/components/logo"
 import WorkBar from "./work-bar"
 
-export default function MainNavbar() {
+export default function MainNavbar({ variant }) {
+    let navbarTheme;
+    if (variant == "dark") {
+        navbarTheme = 'bg-secondary-dark text-white'
+    }
+    else {
+        navbarTheme = 'bg-none text-white'
+    }
     return (
-        <div className="absolute px-5 text-lg z-50 w-full">
+        <div className={cn("absolute px-5 text-lg z-50 w-full",navbarTheme)}>
             <div className="relative py-5 max-w-[89rem] mx-auto ">
                 <div className="flex items-center ">
                     <span className="">
                         <Logo />
                     </span>
-                    <nav className="hidden text-white ml-16 md:block ">
+                    <nav className="hidden ml-16 md:block ">
                         {company.mainLinks.map((item, index) => {
                             return <Link key={index} href={item.href}
                                 className={cn("ml-4",
