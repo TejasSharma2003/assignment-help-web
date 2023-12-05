@@ -9,15 +9,9 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import Breadcrumbs from "@/components/ui/breadcrumbs";
 import { getBlogMetadata } from '@/lib/content';
 
-export const generateStaticParams = async () => {
-    const blogs = getBlogMetadata();
-    return blogs.map((blog) => ({
-        slug: blog.slug,
-    }));
-};
-
 export default function BlogsPage() {
     const previewBlogs = getBlogMetadata();
+
     return <>
         <HeroMain className="relative bg-secondary-dark md:pt-32 md:pb-16 ">
             <svg width="191" height="208" viewBox="0 0 191 208" className="absolute right-0 bottom-0" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="173" cy="178.5" rx="173" ry="178.5" fill="url(#paint0_linear)"></ellipse><defs><linearGradient id="paint0_linear" x1="-3.27832e-05" y1="87.2457" x2="255.501" y2="88.5747" gradientUnits="userSpaceOnUse"><stop stopColor="white" stopOpacity="0.07"></stop><stop offset="1" stopColor="white" stopOpacity="0"></stop></linearGradient></defs></svg>

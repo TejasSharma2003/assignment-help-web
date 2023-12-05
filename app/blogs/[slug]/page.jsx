@@ -1,11 +1,18 @@
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
 import Breadcrumbs from "@/components/ui/breadcrumbs"
-import { getBlogContent } from "@/lib/content"
+import { getBlogContent, getBlogMetadata } from "@/lib/content"
 import Markdown from "markdown-to-jsx";
 import Link from "next/link";
 import Image from "next/image";
 import { formatDate } from "@/lib/utils";
+
+export const generateStaticParams = async () => {
+    const blogs = getBlogMetadata();
+    return blogs.map((blog) => ({
+        slug: blog.slug,
+    }));
+};
 
 export default function BlogDetailPage({ params }) {
     const blogSlug = params.slug;

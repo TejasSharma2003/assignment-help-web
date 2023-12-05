@@ -16,13 +16,6 @@ import { sampleFaqs } from "@/data/sample-faq"
 import Link from "next/link"
 import { getSampleMetadata } from "@/lib/content";
 
-export const generateStaticParams = async () => {
-    const samples = getSampleMetadata();
-    return samples.map((sample) => ({
-        slug: sample.slug,
-    }));
-};
-
 function SampleCard({ title, preview, topic, downloads, pages, words, views, slug }) {
     return <article className="rounded-lg border p-4 mb-5 last:mb-0 sm:p-6 lg:p-8 transition hover:shadow-light duration-300">
         <div className="flex items-start sm:gap-8">

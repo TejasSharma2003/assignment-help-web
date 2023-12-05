@@ -1,10 +1,17 @@
 import { cn } from "@/lib/utils";
-import { getSampleContent } from "@/lib/content"
+import { getSampleContent, getSampleMetadata } from "@/lib/content"
 import Breadcrumbs from "@/components/ui/breadcrumbs";
 import Markdown from "markdown-to-jsx";
 import Link from "next/link";
 import { Button, buttonVariants } from "@/components/ui/button";
 
+
+export const generateStaticParams = async () => {
+    const samples = getSampleMetadata();
+    return samples.map((sample) => ({
+        slug: sample.slug,
+    }));
+};
 export default function DetailSamplePage({ params }) {
     const sampleSlug = params.slug;
     const sample = getSampleContent(sampleSlug);
