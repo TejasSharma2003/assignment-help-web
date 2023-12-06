@@ -3,7 +3,7 @@ import Footer from "@/components/site-footer"
 export default function ContactLayout({ children }) {
     return (
         <>
-            <MainNavbar />
+            <MainNavbar variant="dark"/>
             <main>
                 {children}
             </main>

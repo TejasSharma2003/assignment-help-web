@@ -6,7 +6,7 @@ export default function MarketingLayout({ children }) {
         <div>
             <MainNavbar/>
             {children}
-            <SiteFooter/>
+            <SiteFooter />
         </div>
     )
 }

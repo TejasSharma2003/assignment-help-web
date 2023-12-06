@@ -23,7 +23,7 @@ export default function Testimonial() {
             <div className="flex justify-center mt-8">
                 <Button asClild
                     className={cn(buttonVariants({ variant: 'secondary' }), "mt-5 text-lg")}>
-                    <Link href='/about' className="font-medium text-white">React all reviews</Link>
+                    <Link href='/about' className="font-medium text-white">Read all reviews</Link>
                 </Button>
             </div>
         </div>

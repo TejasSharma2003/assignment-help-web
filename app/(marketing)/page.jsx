@@ -10,28 +10,7 @@ import { assignmentHelpFAQs } from "@/data/faq";
 import Testimonial from "@/components/home/testimonial";
 
 
-export default function MarketingPage({ children }) {
-    const featuredBlogs = [
-        {
-            title: "Assignment Services",
-            brief: "Explore a variety of assignment services tailored to your needs. From technical assignments to programming tasks, our experts are here to help you succeed.",
-            publishedAt: "October 15, 2023",
-            comments: 10,
-        },
-        {
-            title: "Assignment Types",
-            brief: "Discover specialized assignment types designed to cater to different subjects and requirements. Whether it's academic writing, online assignments, or business management tasks, we've got you covered.",
-            publishedAt: "October 15, 2023",
-            comments: 10,
-        },
-        {
-            title: "Mastering Programming Languages",
-            brief: "From Python and Java to data structures and algorithms, delve into the world of programming with our expert guidance. Enhance your coding skills and tackle intricate programming assignments with confidence.",
-            publishedAt: "October 15, 2023",
-            comments: 10,
-        }
-
-    ]
+export default function MarketingPage() {
     return (
         <main>
             <Hero />

@@ -21,7 +21,7 @@ export default function BlogDetailPage({ params }) {
     const authors = [];
     return (
         <>
-            <div className="container relative max-w-4xl pt-32 lg:pt-32">
+            <div className="container relative max-w-4xl pt-5">
                 <Breadcrumbs
                     breadcrumbs={[
                         { label: 'home', href: '/' },

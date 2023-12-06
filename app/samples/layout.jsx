@@ -5,7 +5,7 @@ export default function SamplesLayout({ children }) {
     return (
         <>
             <MainNavbar variant="dark"/>
-            <main>
+            <main className="overflow-hidden">
                 {children}
                 <SiteFooter />
             </main>

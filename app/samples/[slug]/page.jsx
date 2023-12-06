@@ -18,7 +18,7 @@ export default function DetailSamplePage({ params }) {
     const { title, topic, downloads, pages, words, views } = sample.data;
 
     return (
-        <div className="container relative max-w-4xl pt-32 lg:pt-32">
+        <div className="container relative max-w-4xl pt-5">
             <Breadcrumbs
                 breadcrumbs={[
                     { label: 'home', href: '/' },

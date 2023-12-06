@@ -59,7 +59,7 @@ module.exports = {
                 "light": "var(--light)",
             },
             colors: {
-                overlay: 'rgba(0, 0, 0, 0.75)',
+                overlay: 'rgba(0, 0, 0, 0.80)',
                 "sub-heading-fill": "hsl(var(--sub-heading-fill))",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
@@ -75,7 +75,7 @@ module.exports = {
                     DEFAULT: "hsl(var(--secondary))",
                     foreground: "hsl(var(--secondary-foreground))",
                     700: "#41338C",
-                    dark: "#251d4f"
+                    dark: "#261353"
 
                 },
                 destructive: {

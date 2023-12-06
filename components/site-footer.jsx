@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="relative mx-auto max-w-screen-xl space-y-8 px-4 pt-16 pb-8 sm:px-6 lg:space-y-16 lg:px-8" >
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                 <div>
-                    <span className="bg-white inline-block rounded-lg py-2 px-5 ">
+                    {/* <span className="bg-white inline-block rounded-lg py-2 px-5 "> */}
                         <Logo />
-                    </span>
+                    {/* </span> */}
                     <p className="text-base text-white mt-5  mb-5">
                         Assignment Wallah Pvt Ltd<br />1234 Elm Street Apt 567 Springfield,<br />IL 12345
                         United States</p>

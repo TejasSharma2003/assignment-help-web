@@ -72,10 +72,7 @@ export default function Experts() {
                 <div className="grid sm:grid-cols-2 gap-5 sm:gap-8 md:grid-cols-3 mt-10">
                     {reasons.map((reason, index) => {
                         return <div key={index} className="flex flex-col  bg-white rounded-xl border  p-4 shadow-light hover:-translate-y-2 transition-transform duration-300 focus:outline-none focus:ring" >
-                            {/* <span className=" inline-block rounded-lg p-3 "> */}
-                            {/*     {quality.icon} */}
-                            {/* </span> */}
-                            <h2 className="my-2 text-xl font-medium">{reason.point}</h2>
+                            <h2 className="my-2 text-xl font-semibold">{reason.point}</h2>
                             <p className="text-base  flex-1">{reason.description}</p>
                         </div>
                     })}

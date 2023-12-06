@@ -3,9 +3,9 @@ import logo from '@/public/main-logo.png'
 import Link from "next/link";
 
 
-export default function Logo() {
+export default function Logo({ className }) {
     return (
-        <Link href="/">
+        <Link href="/" className={className}>
             <Image
                 src={logo}
                 width={150}
