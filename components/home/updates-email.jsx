@@ -5,7 +5,7 @@ import Ellipse from "../ui/ellipse";
 
 export default function UpdatesEmail() {
     return (
-        <div className="relative z-[100] bg-light-gradient dark:bg-dark">
+        <div className="relative z-20 bg-light-gradient dark:bg-dark">
             <div className="relative z-10 overflow-hidden rounded bg-secondary-dark py-24 ">
                 <div className="container flex flex-wrap items-center justify-center">
                     <div className=" max-w-5xl flex text-center flex-col ">

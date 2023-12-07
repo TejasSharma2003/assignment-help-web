@@ -19,7 +19,7 @@ export default function ExpertsBanner() {
                 <p className="my-3 sm:text-xl/relaxed text-white/70">Experts are assignment are well qualified to solve any doubts and get assignment done in no time.</p>
                 <Dialog />
             </div>
-            <div className="px-4 relative z-50 grid gap-5 mt-8 lg:mt-16 sm:grid-cols-3 sm:grid-rows-expert-layout-rows lg:grid-cols-expert-layout-cols lg:justify-center">
+            <div className="px-4 relative z-20 grid gap-5 mt-8 lg:mt-16 sm:grid-cols-3 sm:grid-rows-expert-layout-rows lg:grid-cols-expert-layout-cols lg:justify-center">
                 <Image className="hidden  lg:block lg:col-start-1 lg:row-start-2 lg:row-end-4  h-full rounded-lg object-cover" src="/expert-with-smile.jpg" width={400} height={348} quality={90} />
                 <Image className="hidden sm:block sm:w-full sm:h-full sm:row-start-1 sm:row-end-3  rounded-lg  object-cover" src="/expert-girl-glasses.jpg" width={200} height={300} quality={90} />
                 <Image className="hidden sm:block sm:w-full sm:h-full sm:row-start-2 sm:row-end-3 rounded-lg object-cover" src="/expert-with-marker.jpg" width={200} height={158} quality={90} />

@@ -11,7 +11,7 @@ export default function DoubtSolve() {
     const brief = "We promise to give our best in solving your problems. To make your doubt clear"
     const classBorder = "after:absolute after:w-full after:top-0 after:left-0 after:h-full after:border after:border-2 after:border after:rounded-lg ";
     return (
-        <SectionWrapper className="relative z-50">
+        <SectionWrapper className="relative z-20">
             <SectionHeading title={title} brief={brief} />
             <SideLayout className="md:grid-rows-2 min-[900px]:grid-rows-none lg:py-8">
                 <div className="">

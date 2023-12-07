@@ -33,7 +33,7 @@ export default function MarketingPage() {
     ]
 
     return (
-        <HeroMain className="relative bg-secondary-dark pb-80 sm:pb-40 md:pb-40 md:bg-hero-image bg-top lg:min-h-max bg-cover  bg-no-repeat before:absolute before:h-full before:w-full before:top-0 before:left-0 md:before:bg-overlay " >
+        <HeroMain className="relative bg-secondary-dark pb-80 sm:pb-40 md:pb-40 bg-hero-image bg-top lg:min-h-max bg-cover  bg-no-repeat before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-overlay " >
             <div className=" container relative z-10 max-w-7xl mx-auto text-center md:text-left">
                 <div className="max-w-3xl">
                     <div className="flex flex-col items-center md:block">
